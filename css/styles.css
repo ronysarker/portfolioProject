@@ -1,42 +1,74 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif; 
+  background-color:rgb(114, 150, 130);
+}
+
+.navbar{
+  font-family: "URW Chancery L", cursive;
+  padding:18px;
+  background-color:rgb(114, 150, 130);
+  
+}
+
+.navbar-nav{
+  font-size: 18px;
+}
+
+#brand{
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: rgb(145, 35, 35);
+}
+
+#extand{
+  font-family: "URW Chancery L", cursive;
+}
+#extand1{
+  font-family: "URW Chancery L", cursive;
+}
 
 h1, h2, h3 {
   font-family: "Lobster", cursive; }
 
 h2 {
-  color: #3046C5; }
-
-header h2 {
-  color: #CEC8FF; }
-
+  color: #3046C5; 
+}
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
-  padding: 20px 0; }
+  background-image: linear-gradient( rgb(216, 184, 184), gray);
+   }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  color: white; }
+  background-image: linear-gradient( rgb(216, 184, 184), gray);
+  color: rgb(216, 184, 184); 
+}
 
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
-  min-height: 200px; }
-
+  min-height: 200px; 
+}
 
 .tab-content {
   border: 1px solid #DDD;
   border-top: none;
-  padding: 10px; }
+  padding: 10px; 
+}
 
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
+.carousel-item{
+  background-image: linear-gradient( rgb(216, 184, 184), gray);
+  font-family: "URW Chancery L", cursive;
+}
+.client-img{
+  height: 225px;
+}
 
-.carousel {
-  border: solid #5637DD; }
+.buttonTop{
+  text-align: right;
+  margin-right: 50px;
+}
 
-#carouselButton {
-  position: absolute;
-  right: 0;
-  bottom: 0; }
+.modal-header{
+  background-color:rgb(114, 150, 130);
+}
